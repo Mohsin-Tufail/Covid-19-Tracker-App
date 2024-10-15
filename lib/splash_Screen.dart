@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:api_practice/world_data_scr.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:flutter/material.dart';
+
 import 'dart:math' as math;
 
 class SplashScreen extends StatefulWidget {
@@ -15,7 +15,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen>
     with TickerProviderStateMixin {
   late final AnimationController _controller =
-      AnimationController(duration: Duration(seconds: 3), vsync: this)
+      AnimationController(duration: Duration(seconds: 6), vsync: this)
         ..repeat();
   @override
   void initState() {
@@ -37,7 +37,6 @@ class _SplashScreenState extends State<SplashScreen>
         backgroundColor: Colors.white38,
         centerTitle: true,
       ),
-
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

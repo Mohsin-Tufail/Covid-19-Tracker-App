@@ -1,6 +1,3 @@
-import 'package:api_practice/Day_Three.dart';
-import 'package:api_practice/Day_Two.dart';
-import 'package:api_practice/day6.dart';
 import 'package:api_practice/splash_Screen.dart';
 
 import 'package:flutter/material.dart';
@@ -17,9 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       themeMode: ThemeMode.dark,
-      home:  SplashScreen(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
-
     );
   }
 }
